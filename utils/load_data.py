@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_exam_data():
-    exam_data=pd.read_csv('/Users/omarquinn/Documents/TEC/Materias/7to/Analitica de Datos I/Analitica/Prof. Rigoberto/Examen/data/exam_data.csv')
+    exam_data=pd.read_csv('data/exam_data.csv')
     return exam_data
 
 def filtros(
